@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>JualLagi - Tambah Produk</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>JualLagi.id</h1>
+        <p>Marketplace Barang Second & Jasa</p>
+    </header>
+    <main>
+        <section class="form-section">
+            <h2>Tambah Produk</h2>
+            <form id="productForm">
+                <label for="nama">Nama Produk:</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <label for="harga">Harga (Rp):</label>
+                <input type="number" id="harga" name="harga" required>
+
+                <label for="deskripsi">Deskripsi:</label>
+                <textarea id="deskripsi" name="deskripsi" required></textarea>
+
+                <label for="foto">Foto Produk (URL):</label>
+                <input type="url" id="foto" name="foto" required>
+
+                <button type="submit">Simpan Produk</button>
+            </form>
+            <div id="output"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
